@@ -1,0 +1,22 @@
+.title a {
+  color: #000;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  background: rgb(233, 236, 239);
+}
+
+.icons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.icons li {
+  margin-right: 1rem
+}

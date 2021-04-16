@@ -1,0 +1,31 @@
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  line-height: 1.625;
+}
+
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] p,
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] ul,
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] ol,
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] blockquote {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin: 3rem;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  line-height: 1.375;
+}
+
+.markdown, .markdown_tuieditor div[class="tui-editor-contents"] h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 2rem;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  line-height: 1.375;
+}

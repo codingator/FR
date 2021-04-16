@@ -1,0 +1,12 @@
+.intro {
+  animation: fadeOut .3s 0s 1 linear alternate;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
