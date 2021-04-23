@@ -1,5 +1,5 @@
 {
-  "name": "learn-starter",
+  "name": "Food-Recommender",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "date-fns": "^2.19.0",
     "next": "^10.0.0",
     "react": "17.0.1",
+    "react-custom-roulette": "^1.1.8",
     "react-dom": "17.0.1",
     "swr": "^0.3.0"
   },

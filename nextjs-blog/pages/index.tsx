@@ -1,32 +1,12 @@
-import { GetStaticProps } from 'next'
-import { getSortedPostsData } from '../lib/posts'
-import { getSortedInteractivesData } from '../lib/interactives'
 import utilStyles from '../styles/utils.module.css'
 import indexStyle from '../styles/index.module.css'
 import Layout from '../components/layout'
 
 import dynamic from 'next/dynamic';
-const HTabs = dynamic(() => import('../components/home-tabs'), { ssr: false });
+// const Roulette = dynamic(() => import('../components/roulette-wheel'), { ssr: false });
+const FavoriteWorldCup = dynamic(() => import('../components/favorite-worldcup'), { ssr: false });
 
-export default function Home({
-  allPostsData,
-  allInteractivesData
-}: {
-  allPostsData: {
-    coverImage: string
-    excerpt: string
-    title: string
-    slug: string
-    date: string
-  }[]
-  allInteractivesData: {
-    coverImage: string
-    excerpt: string
-    title: string
-    slug: string
-    date: string
-  }[]
-}) {
+export default function Home() {
   return (
     <Layout title="Web Developer's">
       <section className={`${indexStyle.intro} ${utilStyles.headingMd}`}>
@@ -36,19 +16,9 @@ export default function Home({
         </p>
       </section>
       <section className={`${indexStyle.intro} ${indexStyle.tabs} ${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <HTabs allPostsData={allPostsData} allInteractivesData={allInteractivesData}/>
+        {/* <Roulette /> */}
+        <FavoriteWorldCup />
       </section>
     </Layout>
   )
-}
-
-export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
-  const allInteractivesData = getSortedInteractivesData()
-  return {
-    props: {
-      allPostsData,
-      allInteractivesData
-    }
-  }
 }
