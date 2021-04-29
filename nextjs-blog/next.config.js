@@ -7,5 +7,7 @@ module.exports = {
     publicRuntimeConfig: {
         // Will be available on both server and client
         staticFolder: '/public',
+        apiKey: process.env.FOODSAFETYKOREA_API_KEY,
+        serviceId: process.env.FOODSAFETYKOREA_API_SERVICE_ID,
     }
 }
