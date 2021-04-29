@@ -17,16 +17,16 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 ## SKILL STACK
 <p align='center'> 
     <p>-FRONT END- (기억이 안남 일단 밑에 것만)</p>
-    <img src="https://img.shields.io/badge/Javascript-royalblue?logo=javascript"/>
-    <img src="https://img.shields.io/badge/Typescript-royalblue?logo=typescript"/>
-    <img src="https://img.shields.io/badge/React-royalblue?logo=React"/>
-    <img src="https://img.shields.io/badge/Scss-royalblue?logo=SASS"/>
-    <img src="https://img.shields.io/badge/Next.js-royalblue?logo=Next.js"/><br>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/Javascript-royalblue?logo=javascript"/>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/Typescript-royalblue?logo=typescript"/>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/React-royalblue?logo=React"/>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/Scss-royalblue?logo=SASS"/>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/Next.js-royalblue?logo=Next.js"/><br>
     <p>-BACK END-</p>
-    <img src="https://img.shields.io/badge/Springboot-gray?logo=spring"/>
-    <img src="https://img.shields.io/badge/aws-gray?logo=amazon"/>
-    <img src="https://img.shields.io/badge/graphql-gray?logo=graphql">
-    <img src="https://img.shields.io/badge/MySQL-gray?logo=mysql">
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/Springboot-gray?logo=spring"/>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/aws-gray?logo=amazon"/>
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/graphql-gray?logo=graphql">
+    <img style="vertical-align: middle;" src="https://img.shields.io/badge/MySQL-gray?logo=mysql">
 </p>
 
 
